@@ -9,7 +9,7 @@ It guides the user through input validation and modifies the configuration file 
 
 Running the Script:
 
-Execute the script using Bash: bash config_manager.sh.
+Execute the script using Bash: bash conf_update.sh.
 
 ## Input Requirements:
 
@@ -37,7 +37,7 @@ Suppose the user provides the following inputs:
 * Scale: HIGH
 * View: Auction
 * Count: 3
-*The script updates sig.conf with:
+* The script updates sig.conf with:
 
 ```bash
 vdopiasample ; HIGH ; INGESTOR ; ETL ; vdopia-etl= 3 ; <current_date_time>
@@ -51,6 +51,5 @@ Bash shell environment.
 * Ensure sig.conf exists in the same directory as the script.
 * The script updates only one line in the configuration file at a time.
 * Valid inputs are necessary to prevent errors in the configuration file.
-
 
 For inquiries, vanshik0027@gmail.com.
