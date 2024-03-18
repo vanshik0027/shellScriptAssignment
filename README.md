@@ -1,8 +1,8 @@
-# Configuration File Management Script
+# conf_update Script
 
 ## Overview:
 
-This Bash script (config_manager.sh) simplifies the process of updating a configuration file (sig.conf). 
+This Bash script (conf_update.sh) simplifies the process of updating a configuration file (sig.conf). 
 It guides the user through input validation and modifies the configuration file according to the provided values.
 
 ## Usage:
